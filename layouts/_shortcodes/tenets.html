@@ -1,0 +1,14 @@
+{{ $tenets := sort .Site.Data.mission.tenets "weight" }}
+<div class="tenetList grid grid-cols-1 lg:grid-cols-2 max-w-full gap-3 prose dark:prose-invert">
+{{ range $tenet := $tenets }}
+    <div class="tenetBlock flex">
+        <div class="tenetIcon flex-none">
+            <span class="text-primary-700 text-2xl -scale-x-100">{{ partial "icon.html" "bookmark-star" }}</span>
+        </div>
+        <div class="tenetContent flex-1">
+            <h3 class="tenetTitle mt-0 mb-0">{{ $tenet.title }}</h3>
+            <p class="tenetBlurb mb-1">{{ $tenet.blurb }}</p>
+        </div>
+    </div>
+{{ end }}
+</div>

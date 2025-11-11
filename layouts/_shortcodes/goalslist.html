@@ -1,0 +1,22 @@
+{{ $goals := sort .Site.Data.mission.goals "weight" }}
+<div class="goalList grid grid-cols-1 lg:grid-cols-2 max-w-full gap-5 prose dark:prose-invert">
+{{ range $goal := $goals }}
+    <div class="goalBlock max-w-full flex">
+        <div class="goalIcon text-primary-700 text-2xl flex-none">{{ partial "icon.html" "card-checklist" }}</div>
+        <div class="goalMain flex-1">
+            <div class="goalContent max-w-full">
+                <h3 class="goalTitle mt-0 mb-0 flex-1">{{ $goal.title }}</h3>
+                <p class="goalBlurb">{{ $goal.blurb }}</p>
+                <details class="goalIOPDetails">
+                    <summary class="goalIOPSummary"><strong>Indicators of Progress</strong></summary>
+                    <ul class="goalIOP mt-1 mb-1">
+                        {{ range $iop := $goal.iop }}
+                            <li class="text-sm">{{ $iop }}</li>
+                        {{ end }}
+                    </ul>
+                </details>
+            </div>
+        </div>
+    </div>
+{{ end }}
+</div>

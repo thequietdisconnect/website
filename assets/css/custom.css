@@ -1,0 +1,162 @@
+.dark\:bg-neutral-800:is(.dark *) {
+    background-color: rgba(var(--color-neutral-900), var(--tw-bg-opacity, 1));
+}
+
+.lead {
+  color: #767676;
+}
+
+.prose :where(h2):not(:where([class~=not-prose],[class~=not-prose] *)){
+    color: rgba(var(--color-primary-700), 1);
+}
+
+.prose :where(p):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-top: 0px;
+    margin-bottom: .75em;
+}
+
+.pagelink {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+}
+
+.pageicon {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.pageinfo h2 {
+    margin: 0;
+}
+
+.pagelink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pagelink:hover {
+  background: none;
+  transform: scale(1.12);
+}
+
+.pagelink:hover .pageicon svg {
+    color: rgba(var(--color-primary-700), 1);
+}
+
+blockquote, blockquote p {
+    margin-top: 0em;
+}
+
+.pageQuote p {
+    text-indent: 1.25em;
+}
+
+.pageQuote blockquote {
+  border-inline-start-color: rgba(var(--color-primary-700), 1);
+}
+
+.pageQuote blockquote, .pageQuote blockquote p {
+    margin-bottom: .25em;
+    text-indent: 0;
+}
+.pageicon svg {
+    width: 3em;
+    height: 3em;
+    vertical-align: top;
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.toolBlock {
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.bi-pin-angle-fill {
+    transform: scaleX(-1);
+}
+
+footer.print\:hidden, footer.pt-8 {
+    display: none;
+}
+
+article {
+    margin-bottom: .5em;
+}
+
+header.py-6 {
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+
+.lead {
+    margin-bottom: 1em !important;
+}
+
+.tqdColumn h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tqdColumn p {
+    margin-bottom: 0;
+}
+
+::marker {
+    color: rgba(var(--color-primary-700), 1);
+}
+
+.goalIcon {
+    padding-right: .25em;
+}
+
+.goalIOPSummary {
+    padding-left: .5em;
+}
+.actionToolItem {
+    line-height: 1;
+}
+
+@media (min-width: 640px) {
+  article {
+    margin-bottom: 0;
+  }
+  .pageicon svg {
+    width: 5em;
+    height: 5em;
+    vertical-align: top;
+    /* transition is inherited */
+  }
+  .pageicon {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+  }
+  .tenetBlurb {
+    padding-right: 10%;
+  }
+  .systemBlurb {
+    padding-right: 10%;
+  }
+  .pageinfo p {
+    padding-right: 10%;
+  }
+  #what-guides-us, #defining-the-system, #reasonable-goals {
+    margin-top: 0;
+  }
+  .toolBlock {
+    padding-right: 10%;
+  }
+  .tqdColumn {
+    padding-right: 1.5em;
+  }
+  .goalContent {
+    padding-right: 1.5em;
+  }
+  .actionTools {
+    padding-left: .5em;
+    border-inline-start-width: .25rem;
+    border-inline-start-color: rgba(var(--color-primary-700), 1);
+  }
+}

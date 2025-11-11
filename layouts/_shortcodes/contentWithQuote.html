@@ -1,0 +1,9 @@
+<div class="prose dark:prose-invert max-w-full flex flex-col lg:flex-row gap-6">
+  {{ $sides := split .Inner "<--->" }}
+  <div class="w-full lg:w-1/2 prose dark:prose-invert">
+    {{ index $sides 0 | $.Page.RenderString -}}
+  </div>
+  <div class="pageQuote w-full lg:w-1/2 prose dark:prose-invert">
+    {{ index $sides 1 | $.Page.RenderString -}}
+  </div>
+</div>

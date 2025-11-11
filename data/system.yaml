@@ -1,0 +1,55 @@
+systems:
+  - title: Debt & Consumerism
+    blurb: "Apps like Klarna encourage impulse buying with \"buy now, pay later\", disguising long-term costs. Credit cards, payday loans, and endless ads push us to spend money we don't have on things we don't need. Debt isn't a flaw in the system, it's a feature that keeps it running."
+    weight: 0
+  - title: Surveillance & Data Mining
+    blurb: "Google tracks your searches, Meta monitors your clicks and both can sell or share that data without your knowledge. Phones and apps quietly harvest personal info, turning your life into a product for advertisers and law enforcement. Your privacy isn't stolen, it's sold."
+    weight: 5
+  - title: Attention Economy
+    blurb: "TikTok's endless scroll and Instagram's algorithmic feed are built to keep you hooked. Behind every notification is a system that profits from your time, even if it costs you focus, rest, or self-worth. The cost isn't just distraction, it's the quiet erosion of your autonomy."
+    weight: 10
+  - title: Corporate Control
+    blurb: "Tools like Slack and Teams keep employees in a constant state of partial focus. Pings, unread dots, and digital status lights create artificial urgency, turning knowledge work into an endless stream of reactive tasks. Corporations increasingly shape not just what we buy, but how we work, live, and think using dark patterns and manipulative psychology."
+    weight: 15
+  - title: Isolation & Disconnection
+    blurb: "Suburban sprawl and car-centered design leave people physically cut off from each other. In the gaps where community should be, screens step in, profiting from our loneliness and division."
+    weight: 20
+  - title: Environmental Harm
+    blurb: "Phones that degrade over time and devices designed to break are part of a system that generates constant waste. Fast tech and disposable culture fuel pollution, resource depletion, and climate damage."
+    weight: 25
+  - title: Education
+    blurb: "Scripted curricula and test-driven classrooms reward memorization and obedience, not curiosity. Schools often prepare students for compliance, not for creative, adaptive, or meaningful lives. Imagine if education rewarded imagination instead of compliance."
+    weight: 30
+  - title: Healthcare
+    blurb: "Mental health apps promise care but quietly sell user data to advertisers. Insurance companies decide what treatments are \"necessary,\" while pharmaceutical giants set prices that turn illness into a market. In this system, symptoms are monetized, and prevention is unprofitable. Care becomes a transaction, not a right."
+    weight: 35
+  - title: Food Systems
+    blurb: "Highly processed foods are cheap, addictive, and everywhere. Engineered more for shelf life than nourishment. Industrial agriculture prioritizes profit over health, sustainability, or connection to the land."
+    weight: 40
+  - title: Housing & Homelessness
+    blurb: "Homes are bought and sold as investments while millions go unhoused. Real estate speculation, not scarcity, drives much of the crisis turning shelter into a privilege instead of a right."
+    weight: 45
+  - title: Political Corruption
+    blurb: "Lobbyists and mega-donors shape the laws that govern us. When money controls politics, democracy becomes customer service for the wealthy."
+    weight: 50
+  - title: Media Manipulation
+    blurb: "Clickbait headlines, rage-filled commentary, and 24/7 outrage aren't bugs, they're features. News and entertainment often distract or divide us to keep profits flowing, not to inform or unite."
+    weight: 55
+  - title: Criminal Justice
+    blurb: "Harsh sentencing and mass incarceration disproportionately impact communities of color. The system often punishes poverty and race more than crime, with little focus on healing or prevention."
+    weight: 60
+  - title: Labor & Precarity
+    blurb: "At Amazon, warehouse workers are tracked by software that penalizes bathroom breaks. Gig apps like Uber or DoorDash frame flexibility as freedom while offering no stability, benefits, or worker protections. Behind the promise of hustle culture is a workforce stuck in endless insecurity."
+    weight: 65
+  - title: Algorithmic Bias
+    blurb: "Automated systems now decide who gets a loan, a job interview, or bail. These algorithms often reflect existing prejudices; making discrimination faster, harder to detect, and more widespread."
+    weight: 70
+  - title: Time Scarcity
+    blurb: "Work weeks are longer, commutes are farther, and side hustles eat into rest. The system keeps us busy and exhausted, leaving little space for reflection, connection, or resistance."
+    weight: 75
+  - title: Digital Ownership
+    blurb: "We stream our media, lease our software, and rent our books online but rarely own anything outright. As media moves to platforms, control shifts away from individuals and toward corporations."
+    weight: 80
+  - title: Infrastructure & Access
+    blurb: "Public services like transit, libraries, and broadband are underfunded or privatized cutting off essential access. When basic infrastructure fails, inequality deepens and everyday life gets harder."
+    weight: 85

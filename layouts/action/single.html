@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <article class="max-w-full">
+    <header class="max-w-full">
+        {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+            {{ partial "breadcrumbs.html" . }}
+        {{ end }}
+        <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+            {{ .Title | emojify }}
+        </h1>
+    </header>
+    <div class="actionTop lg:flex max-w-full">
+        <div class="actionMain lg:flex-auto max-w-full">
+            <section class="prose mt-6 max-w-full dark:prose-invert">
+            {{ .Content | emojify }}
+            </section>
+        </div>
+        <div class="actionTools max-w-full lg:w-1/5 lg:flex-none prose mt-6 dark:prose-invert">
+            <h2>Helpful Tools</h2>
+                {{ $actionTags := .Params.tags }}
+                {{ range sort (where (site.RegularPages) "Section" "tools") "Title" }}
+                    {{ if intersect .Params.tags $actionTags }}
+                        <p class="actionToolItem max-w-full">
+                            <strong>{{ .Title }}</strong><br>
+                            {{ $link := urls.Parse .Params.link }}
+                            <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer" class="actionToolLink text-sm">{{ $link.Host }}</a>
+                        </p>
+                    {{ end }}
+                {{ end }}
+        </div>
+    </div>
+  </article>
+{{ end }}

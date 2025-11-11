@@ -1,0 +1,59 @@
+{{ define "main" }}
+{{ $categories := .Site.Data.tools.categories }}
+{{ $sectionPages := .Data.Pages }}
+
+  <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+  <section class="prose max-w-full dark:prose-invert mb-6">
+    {{ .Content | emojify }}
+  </section>
+  <section class="tool-filter prose max-w-full dark:prose-invert mb-6 flex justify-end">
+    <form>
+      <label for="category" class="block text-sm/6 font-medium text-gray-900 dark:text-gray-100">Select a category to filter tools</label>
+      <select id="category" name="category" autocomplete="category-name" class="rounded-md bg-white dark:bg-neutral-800 py-1.5 pr-8 pl-3 text-base text-gray-900 dark:text-gray-100 outline-1 -outline-offset-1 outline-gray-300 dark:outline-gray-700 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+        <option value="All">All</option>
+        {{ range $categories }}
+          <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </form>
+  </section>
+  {{ range $category := $categories }}
+    <section toolCategory="{{ $category }}" class="tool-category-section prose max-w-full dark:prose-invert">
+      <h2>{{ $category }}</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-2 max-w-full gap-3">
+        {{ range sort (where $sectionPages "Params.categories" "intersect" (slice $category)) ".Title" }}
+          {{ $link := urls.Parse .Params.link }}
+          <p class="toolBlock">
+            <strong>{{ .Title }}</strong> - <a href="{{ $link.String }}" target="_blank">{{ $link.Host }}</a><br>
+            {{ .Summary }}
+          </p>
+        {{ end }}
+      </div>
+      <hr class="prose max-w-full mt-6 mb-6 dark:prose-invert">
+    </section>
+  {{ end }}
+  <section class="contact flex justify-center prose max-w-full dark:prose-invert mb-6">
+    <p>For feedback about items in this index, please email <a href="mailto:thequietdisconnect@gmail.com">thequietdisconnect@gmail.com</a>.</p>
+  </section>
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('category');
+    const sections = document.querySelectorAll('.tool-category-section');
+    select.addEventListener('change', function() {
+      const value = select.value;
+      sections.forEach(section => {
+        if (value === 'All' || section.getAttribute('toolCategory') === value) {
+          section.style.display = '';
+        } else {
+          section.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+{{ end }}

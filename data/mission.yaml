@@ -1,0 +1,148 @@
+tenets:
+  - title: "Knowledge is a universal right"
+    blurb: "Everyone deserves access to information and the tools to think freely. "
+    weight: 0
+  - title: "Violence is never the answer"
+    blurb: "Lasting change comes through understanding, not force."
+    weight: 5
+  - title: "Hate has no place in a just society"
+    blurb: "We reject prejudice, cruelty, and dehumanization in all forms."
+    weight: 10
+  - title: "All people are equal"
+    blurb: "Regardless of race, class, gender, ability, or belief."
+    weight: 25
+  - title: "Freedom begins with responsibility"
+    blurb: "True autonomy requires integrity, discipline, and self-awareness."
+    weight: 40
+  - title: "Privacy is a form of dignity"
+    blurb: "Every person deserves control over their identity and data."
+    weight: 15
+  - title: "Speak with purpose or remain silent"
+    blurb: "Use words to build, not to tear down."
+    weight: 30
+  - title: "Be kind to our only Earth"
+    blurb: "This planet is our shared home. Care for it as such."
+    weight: 20
+  - title: "If you are able, help those who are not"
+    blurb: "Generosity isn't charity, it's responsibility."
+    weight: 35
+  - title: "Leave things better than you found them"
+    blurb: "Improve places, systems, and relationships that you touch."
+    weight: 45
+  - title: "Power must serve the people"
+    blurb: "Institutions exist to protect, not dominate."
+    weight: 50
+  - title: "The truth matters"
+    blurb: "Facts, honesty, and transparency are non-negotiable."
+    weight: 55
+goals:
+  - title: "Break Free from Dependency"
+    blurb: "Empower people to choose freedom over convenience by escaping debt, surveillance, and excess."
+    weight: 0
+    iop:
+      - "Decline in personal debt and reliance on credit."
+      - "Growth in privacy-first tech and adoption of simple devices."
+      - "Reduction in average screen time and digital distractions."
+      - "More people using cash, analog tools, and non-digital workflows."
+      - "Mainstream trends reflecting pushback against tech dependency."
+      - "Increase in number of people switching to non-smartphone devices."
+      - "Decrease in annual consumer spending on digital subscriptions."
+  - title: "Strengthen Local Community and Connection"
+    blurb: "Foster real relationships and mutual support, building networks that make us resilient and less isolated."
+    weight: 5
+    iop:
+      - "Increase in mutual aid groups, tool libraries, and barter networks."
+      - "Higher participation in co-ops, farmers markets, and time banks."
+      - "Growth in local sourcing and direct trade."
+      - "Local governments funding community resilience initiatives."
+      - "More local coverage of successful, people-first systems."
+      - "Rise in local event attendance and volunteer hours tracked."
+      - "Increase in number of new community gardens and shared spaces."
+  - title: "Reclaim Time, Attention, and Purpose"
+    blurb: "Help people rediscover meaning beyond consumption and screens. Valuing presence, creativity, and rest."
+    weight: 10
+    iop:
+      - "Media narratives shift toward simplicity, rest, and presence."
+      - "Decline in influencer obsession; rise of anti-branding movements."
+      - "Growth in reading, outdoor activity, and analog hobbies."
+      - "Alternative success stories gain recognition."
+      - "Reduced use of algorithm-driven social media platforms."
+      - "Increase in average hours spent on offline activities per week."
+      - "Growth in library memberships and book club participation."
+  - title: "Support Real Alternatives and Autonomy"
+    blurb: "Make open-source, decentralized, and people-first tools accessible to all. So everyone can opt out."
+    weight: 15
+    iop:
+      - "Open-source tools gain ground over corporate platforms."
+      - "Decentralized platforms reach critical mass."
+      - "Privacy-first services become everyday tools."
+      - "Crowdfunding, co-ops, and collectives replace traditional funding models."
+      - "Laws shift toward right to repair, data ownership, and digital autonomy."
+      - "Increase in number of open-source software downloads and contributors."
+      - "Growth in adoption rates of decentralized communication platforms."
+  - title: "Normalize Peaceful Non-Participation"
+    blurb: "Make opting out and unplugging a respected, everyday choice; not a radical act."
+    weight: 20
+    iop:
+      - "More people disengage from major platforms."
+      - "Tech minimalism and unplugging become common lifestyle choices."
+      - "Employers, schools, and cities reduce reliance on surveillance tools."
+      - "Artists and public figures actively reject algorithmic visibility."
+      - "Media and art celebrate disconnection and intentional living."
+      - "Increase in number of workplaces adopting privacy-first policies."
+      - "Growth in annual sales of non-digital leisure products."
+  - title: "Make Exit and Alternatives Accessible"
+    blurb: "Ensure everyone (not just the privileged) can disconnect, rebuild, and thrive."
+    weight: 25
+    iop:
+      - "Open-source and community-built tools reach underserved groups."
+      - "Opt-out guides are translated, localized, and widely distributed."
+      - "Mutual aid and low-tech living expand in marginalized communities."
+      - "Affordable access to privacy tools, public spaces, and offline options increases."
+      - "Diverse voices lead and reshape the resistance narrative."
+      - "Increase in number of translated guides and resources available online."
+      - "Growth in funding for community tech and low-tech initiatives."
+  - title: "Reduce Harm to the Earth"
+    blurb: "Shrink the environmental cost of digital infrastructure and consumer culture. Care for our shared home."
+    weight: 30
+    iop:
+      - "Less e-waste and reduced demand for frequent tech upgrades."
+      - "Right-to-repair laws and sustainable product design gain traction."
+      - "Secondhand tech markets and long-life devices become more common."
+      - "Greater awareness of the environmental cost of constant connectivity."
+      - "Environmental groups adopt digital minimalism and degrowth strategies."
+      - "Decrease in annual electronic waste tonnage."
+      - "Increase in number of products certified for repairability and sustainability."
+  - title: "Reconnect with Meaning and Each Other"
+    blurb: "Help people find purpose, belonging, and joy in real life through creativity, service, and community."
+    weight: 35
+    iop:
+      - "Revival of local arts, analog spaces, and community creativity."
+      - "Growth in volunteerism, real-life friendships, and hands-on skill sharing."
+      - "Mental health improves alongside reduced digital dependence."
+      - "Rise of non-algorithmic culture: zines, book clubs, workshops, etc."
+      - "Cultural recognition shifts toward caretakers, teachers, and makers; not influencers."
+      - "Increase in number of local arts events and creative workshops held."
+      - "Growth in mental health metrics linked to reduced screen time."
+  - title: "Change the Narrative"
+    blurb: "Shift the public conversation toward freedom, dignity, and collective action so resistance becomes hope."
+    weight: 40
+    iop:
+      - "Alternative media and independent voices gain mainstream reach."
+      - "Public trust in corporate media continues to decline."
+      - "Language like 'opt out,' 'mutual aid,' and 'digital minimalism' becomes normalized."
+      - "Popular culture critiques surveillance, hustle culture, and consumerism."
+      - "Stories of autonomy and disconnection become part of collective memory."
+      - "Increase in number of published articles and books on digital minimalism."
+      - "Growth in independent media audience and engagement statistics."
+  - title: "Restore Trust and Transparency"
+    blurb: "Rebuild trust in our systems and each other by championing honesty, openness, and accountability everywhere."
+    weight: 45
+    iop:
+      - "Public institutions and tech platforms adopt transparent, open processes."
+      - "Community-led audits and citizen oversight become common."
+      - "Greater access to information and open data for all."
+      - "People demand and receive honest communication from leaders and companies."
+      - "Trust grows through shared truth, accountability, and collaboration."
+      - "Increase in number of public transparency reports published annually."
+      - "Growth in participation rates for citizen oversight initiatives."

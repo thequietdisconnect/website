@@ -1,0 +1,9 @@
+{{ $systems := sort .Site.Data.system.systems "weight" }}
+<div class="systemList grid grid-cols-1 lg:grid-cols-2 max-w-full gap-5 prose dark:prose-invert">
+{{ range $system := $systems }}
+    <div class="systemContent max-w-full">
+        <h3 class="systemTitle mt-0 mb-0">{{ $system.title }}</h3>
+        <p class="systemBlurb mb-1">{{ $system.blurb }}</p>
+    </div>
+{{ end }}
+</div>

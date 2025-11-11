@@ -1,0 +1,7 @@
+<div class="gridList grid grid-cols-1 lg:grid-cols-2 gap-5">
+  {{- range split .Inner "<--->" }}
+    <div class="tqdColumn max-w-full prose dark:prose-invert">
+      {{ . | $.Page.RenderString -}}
+    </div>
+  {{- end }}
+</div>

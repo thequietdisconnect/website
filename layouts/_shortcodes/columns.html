@@ -1,0 +1,7 @@
+<div class="flex flex-col lg:flex-row gap-6">
+  {{- range split .Inner "<--->" }}
+    <div class="tqdColumn w-full lg:w-1/2 prose dark:prose-invert">
+      {{ . | $.Page.RenderString -}}
+    </div>
+  {{- end }}
+</div>
