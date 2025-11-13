@@ -18,6 +18,7 @@ We're not here to burn it down. We're here to stop feeding it. This is how we'll
 {{< goalslist >}}
 ## Supporting This Site  
 Contribute to the content: <a href='https://github.com/thequietdisconnect/website' target="_blank">https://github.com/thequietdisconnect/website</a>  
+Download, print, and distribute [physical media](https://thequietdisconnect.com/tqd-physical-media-kit.zip)  
 Spread the message on <a href='https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthequietdisconnect.com' target='_blank'>Facebook</a> and <a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fthequietdisconnect.com' target='_blank'>Twitter</a>  
 Email us: [thequietdisconnect@gmail.com](mailto:thequietdisconnect@gmail.com)
 
